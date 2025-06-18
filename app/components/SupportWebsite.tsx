@@ -16,7 +16,7 @@ const LoveWebsite = () => {
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
   const audioRef = useRef<HTMLAudioElement | null>(null);
   
-  const firstMessage = "Hey Anita";
+  const firstMessage = "Hey Anjie";
   const secondMessage = "I think you're beautiful";
 
   useEffect(() => {
@@ -280,7 +280,7 @@ const LoveWebsite = () => {
                 transition={{ duration: 0.8 }}
                 className="mb-8 pb-2"
               >
-                <div className="text-6xl md:text-8xl lg:text-9xl bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 font-bold pb-2">
+                <div className="text-6xl md:text-8xl lg:text-9xl bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 font-bold pb-6 mb-2">
                   {firstMessage.split('').map((letter, index) => (
                     <motion.span
                       key={index}
