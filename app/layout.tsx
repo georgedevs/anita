@@ -20,7 +20,7 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: "Anjieeee", 
-  description: "A special gift for my baby",
+  description: "meh",
 };
 
 export default function RootLayout({
