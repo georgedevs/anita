@@ -19,7 +19,7 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "I love you Babe 💓", 
+  title: "Anjieeee", 
   description: "A special gift for my baby",
 };
 
